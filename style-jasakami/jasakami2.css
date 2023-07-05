@@ -1,0 +1,139 @@
+.sect-1 {
+  display: flex;
+  justify-content: center;
+  height: 480px;
+  background-color: #616161;
+  background-image: url(../img/jasa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-blend-mode: overlay;
+  margin-bottom: 100px;
+}
+.sect-1 div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 70px;
+  text-shadow: 1px 5px 27px rgba(1,1,1,0.73);
+}
+
+.sect-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.art-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 130px 0px;
+}
+.gambar2 {
+  width: 80%;
+  background-color: grey;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 14px 16px 21px -2px rgba(0,0,0,0.2);
+  margin-right: 30px;
+}
+.txt2-container {
+  width: 600px;
+  margin-left: 30px;
+}
+.txt2-container h6 {
+  font-weight: 200;
+  line-height: 30px;
+  margin: 30px 0px 40px 0px;
+}
+.konsultasi-1 {
+  font-size: 23px;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 10px 0px 10px 0px;
+}
+.konsultasi2 {
+  width: 260px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 50px;
+  margin: 10px 0px 10px 0px;
+}
+.txt2-container a {
+  text-decoration: none;
+  padding: 0px 0px 0px 21px;
+  font-size: 16px;
+  color: rgb(35, 110, 208);
+  text-shadow: 1px 1px 15px rgba(1,1,1,0.2);
+}
+
+/* Batas Responsivenya gan */
+
+@media(min-width: 475px) {
+  .sect-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .art-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space;
+  margin: 0px 0px 130px 0px;
+}
+.gambar2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gambar2 {
+  max-width: 450px;
+  background-color: grey;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 14px 16px 21px -2px rgba(0,0,0,0.2);
+}
+.txt2-container {
+  width: 300px;
+  margin: 30px 0px 0px 0px;
+}
+.txt2-container h3 {
+  font-size: 3vh;
+  margin: 0;
+}
+.txt2-container h6 {
+  font-size: 2vh;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 15px 0px 30px 0px;
+}
+.txt2-container a {
+  text-decoration: none;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  color: rgb(35, 110, 208);
+  text-shadow: 1px 1px 15px rgba(1,1,1,0.2);
+}
+.konsultasi-1 {
+  font-size: 2vh;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 10px 0px 10px 0px;
+}
+.konsultasi-2 {
+  width: 230px;
+  font-size: 2vh;
+  font-weight: 200;
+  line-height: 25px;
+  margin: 10px 0px 30px 0px;
+}
+}
+
+
+

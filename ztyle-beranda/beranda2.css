@@ -1,0 +1,675 @@
+.beranda-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background-color: rgb(233, 233, 233);
+  background-image: url(../img/pasir.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.beranda-1 h1 {
+  width: 800px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.beranda-1 h6 {
+  width: 520px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.description {
+  width: 500px;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+
+.button {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 50px;
+  color: white;
+  background-color: #003fae;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  background-color: #043282;
+}
+
+.button:active {
+  background-color: #003fae;
+}
+
+.btnitem,
+.btnbidang {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 50px;
+  color: white;
+  background-color: #000000;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btnitem:hover,
+.btnbidang:hover {
+  transform: translateY(-3px);
+  background-color: #161616;
+}
+
+.btnitem:active,
+.btnbidang:active {
+  background-color: #000000;
+}
+
+
+/* batas pertama */
+
+.beranda-2 {
+  background-color: #003fae;
+  padding: 80px 30px 80px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-2 {
+  max-height: 500px;
+}
+
+.leftside-2 {
+  display: flex;
+  margin-left: 30px;
+}
+
+.rightside-2 {
+  margin-right: 100px;
+}
+
+.headline-2 {
+  color: white;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.caption {
+  color: white;
+  width: 450px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+/* Kenapa Hitam  */
+
+.kenapa-hitam {
+  background-color: black;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kenapa-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.left-grid div,
+.middle-grid div,
+.right-grid div {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.left-grid div {
+  margin-left: 50px;
+}
+
+.left-grid p,
+.middle-grid p,
+.right-grid p {
+  text-align: left;
+  color: white;
+  font-weight: 200;
+  width: 250px;
+  line-height: 25px;
+  margin-left: 75px;
+}
+
+.left-grid p {
+  margin-left: 50px;
+}
+
+.left-grid {
+  padding-left: 50px;
+}
+
+.right-grid {
+  padding-right: 50px;
+}
+
+
+
+/* Layanan violent */
+
+.layanan-violent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f2f5ff;
+}
+
+.layanan-violent h3 {
+  color: #003fae;
+  font-weight: 600;
+  margin: 5px 0px 10px 0px;
+}
+
+.layanan-violent h5 {
+  font-weight: 300;
+}
+
+.violent-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f2f5ff;
+  column-gap: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+}
+
+.violent-left,
+.violent-middle,
+.violent-right {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(193, 193, 193, 0.5);
+  padding: 35px;
+}
+
+.violent-left h4,
+.violent-middle h4,
+.violent-right h4 {
+  margin-top: 30px;
+}
+
+.violent-left h6,
+.violent-middle h6,
+.violent-right h6 {
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.violent-left a,
+.violent-middle a,
+.violent-right a {
+  text-decoration: none;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(28, 92, 252);
+}
+
+
+/* Bidang Kami */
+
+.sesi-bidang-kami {
+  background-color: white;
+  padding: 50px 80px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sesi-bidang-kami div p {
+  margin: 0;
+}
+
+.bidang-kami-kiri {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.bidang-kami-kiri h2 {
+  width: 200px;
+  padding: 0px 0px 25px 0px;
+}
+
+
+.bidang-kami-kanan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bidang-kami-kanan img {
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+
+/* sesi akhir */
+
+.sesi-akhir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 100px 30px 0px 30px;
+}
+
+.logo-software {
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.logo-software img {
+  height: 200px;
+  padding-top: 70px;
+}
+
+.logo-software .ansys-logo {
+  height: 100px;
+}
+
+.logo-software .open-logo {
+  margin: 0px 50px 0px 50px;
+}
+
+.logo-standard {
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.logo-standard img {
+  height: 130px;
+  margin: 50px 30px 0px 80px;
+}
+
+.logo-banyak-txt {
+  color: rgb(164, 164, 164);
+}
+
+.logo-banyak img {
+  margin-top: 30px;
+  height: 230px;
+}
+
+/* Batas Responsive */
+
+@media(min-width: 457px) {
+  .beranda-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    background-image: url(../img/pasir.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  
+  .beranda-1 h1 {
+    width: 450px;
+    font-size: 6.5vh;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .beranda-1 h6 {
+    width: 300px;
+    font-size: 1.5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .description {
+    width: 500px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #003fae;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    background-color: #043282;
+  }
+  
+  .button:active {
+    background-color: #003fae;
+  }
+  
+  .btnitem,
+  .btnbidang {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btnitem:hover,
+  .btnbidang:hover {
+    transform: translateY(-3px);
+    background-color: #161616;
+  }
+  
+  .btnitem:active,
+  .btnbidang:active {
+    background-color: #000000;
+  }
+  
+  
+  /* batas pertama */
+  
+  .beranda-2 {
+    background-color: #003fae;
+    padding: 60px 30px 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-2 {
+    max-height: 320px;
+  }
+  
+  .leftside-2 {
+    display: flex;
+    margin-left: 0px;
+  }
+  
+  .rightside-2 {
+    margin-right: 0px;
+  }
+  
+  .headline-2 {
+    color: white;
+    font-size: 5vh;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  .caption {
+    color: white;
+    width: 420px;
+    font-size: 2vh;
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  
+  /* Kenapa Hitam  */
+  
+  .kenapa-hitam {
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .kenapa-hitam h2 {
+    font-size: 4.5vh;
+  }
+  
+  .kenapa-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+  
+  .left-grid div,
+  .middle-grid div,
+  .right-grid div {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+    margin-left: 75px;
+  }
+  
+  .left-grid,
+  .middle-grid {
+    margin: 0px 0px 80px 0px;
+  }
+  
+  .left-grid p,
+  .middle-grid p,
+  .right-grid p {
+    text-align: left;
+    color: white;
+    font-weight: 200;
+    width: 250px;
+    line-height: 25px;
+    margin-left: 75px;
+  }
+  
+  .left-grid p {
+    margin-left: 75px;
+  }
+  
+  .left-grid {
+    padding-left: 0px;
+  }
+  
+  .right-grid {
+    padding-right: 50px;
+  }
+  
+  
+  
+  /* Layanan violent */
+  
+  .layanan-violent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f5ff;
+  }
+  
+  .layanan-violent h3 {
+    color: #003fae;
+    font-weight: 600;
+    font-size: 5vh;
+    margin: 5px 0px 0px 0px;
+  }
+  
+  .layanan-violent h5 {
+    font-weight: 300;
+    font-size: 2.5vh;
+    width: 350px;
+  }
+  
+  .violent-grid {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    background-color: #f2f5ff;
+    row-gap: 25px;
+    padding-bottom: 80px;
+  }
+  
+  .violent-left,
+  .violent-middle,
+  .violent-right {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(193, 193, 193, 0.5);
+    padding: 35px;
+  }
+  
+  .violent-left h4,
+  .violent-middle h4,
+  .violent-right h4 {
+    margin-top: 20px;
+    font-size: 3.5vh;
+  }
+  
+  .violent-left h6,
+  .violent-middle h6,
+  .violent-right h6 {
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 210px;
+    font-size: 2vh;
+  }
+  
+  .violent-left a,
+  .violent-middle a,
+  .violent-right a {
+    text-decoration: none;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    color: rgb(28, 92, 252);
+  }
+  
+  
+  /* Bidang Kami */
+  
+  .sesi-bidang-kami {
+    background-color: white;
+    padding: 50px 80px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .bidang-kami-kiri {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 0px 45px 0px;
+  }
+  
+  .bidang-kami-kiri h2 {
+    margin: 0;
+    width: 200px;
+    font-size: 5vh;
+    padding: 0px 0px 25px 0px;
+  }
+  
+  .bidang-kami-kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .bidang-kami-kanan img {
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* sesi akhir */
+  
+  .sesi-akhir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    padding: 100px 30px 0px 30px;
+  }
+  .sesi-akhir h5 {
+    font-size: 3vh;
+  }
+  .sesi-akhir h4 {
+    font-size: 2vh;
+  }
+
+  .logo-software {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+  }
+
+  .logo-standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    padding-bottom: 120px;
+  }
+
+  .logo-standard img {
+    height: 100px;
+    margin: 50px 30px 0px 0px;
+  }
+
+  .logo-banyak img {
+    margin: 30px 0px 20px 0px;
+    height: 120px;
+  }
+}

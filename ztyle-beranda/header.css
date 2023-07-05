@@ -1,0 +1,420 @@
+.header {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(237, 237, 237);
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header {
+  height: 30px;
+  margin-left: 50px;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  align-items: center;
+}
+
+.rightside div {
+  font-weight: 300;
+}
+
+.icon-search {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.brnd {
+  color: rgb(89, 139, 220);
+  text-decoration: none;
+}
+
+.tentangkami,
+.jaka,
+.pudi,
+.porto,
+.kontak {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+
+.tentangkami:hover,
+.jaka:hover,
+.pudi:hover,
+.porto:hover,
+.kontak:hover {
+  color: rgb(89, 139, 220);
+}
+
+
+@media(min-width: 475px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 20px;
+    margin-left: 30px;
+  }
+
+  .rightside {
+    display: none;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+
+  .rightside div {
+    font-weight: 300;
+  }
+
+  .icon-search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+}
+
+@media(min-width: 640px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 20px;
+    margin-left: 30px;
+  }
+
+  .rightside {
+    display: none;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+  .rightside div {
+    font-weight: 300;
+  }
+
+  .icon-search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+}
+
+@media(min-width: 768px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+  }
+
+  .rightside {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+  .brnd {
+    color: rgb(89, 139, 220);
+    text-decoration: none;
+  }
+
+  .rightside div {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .icon-search {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 200px;
+  }
+
+  .rightside {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+  .brnd {
+    color: rgb(89, 139, 220);
+    text-decoration: none;
+  }
+
+  .rightside div {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .icon-search {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+}
+
+@media(min-width: 1280px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 30px;
+    margin-left: 50px;
+  }
+
+  .rightside {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+  .brnd {
+    color: rgb(89, 139, 220);
+    text-decoration: none;
+  }
+
+  .rightside div {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .icon-search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .tentangkami,
+  .jaka,
+  .pudi,
+  .porto,
+  .kontak {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+  }
+
+  .tentangkami:hover,
+  .jaka:hover,
+  .pudi:hover,
+  .porto:hover,
+  .kontak:hover {
+    color: rgb(89, 139, 220);
+  }
+}
+
+
+@media(min-width: 1536px) {
+  .header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+  }
+
+  .leftside {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header {
+    height: 30px;
+    margin-left: 50px;
+  }
+
+  .rightside {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+  }
+
+  .brnd {
+    color: rgb(89, 139, 220);
+    text-decoration: none;
+  }
+
+  .rightside div {
+    font-weight: 300;
+  }
+
+  .icon-search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .tentangkami,
+  .jaka,
+  .pudi,
+  .porto,
+  .kontak {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+  }
+
+  .tentangkami:hover,
+  .jaka:hover,
+  .pudi:hover,
+  .porto:hover,
+  .kontak:hover {
+    color: rgb(89, 139, 220);
+  }
+}

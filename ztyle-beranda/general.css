@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding-top: 65px;
+
+}
+div,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 500;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+}

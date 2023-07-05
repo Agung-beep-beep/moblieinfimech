@@ -1,0 +1,242 @@
+.sect-1 {
+  display: flex;
+  justify-content: center;
+  height: 480px;
+  background-color: rgb(104, 103, 103);
+  background-image: url(../img/kantoor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-blend-mode: overlay;
+}
+.sect-1 div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 70px;
+  text-shadow: 1px 5px 27px rgba(1,1,1,0.73);
+}
+
+.sect-2 {
+  height: 710px;
+  background-color: #003fae;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.history-grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  column-gap: 100px;
+}
+
+.judul {
+  margin-top: 50px;
+}
+
+.desc-1,
+.desc-2,
+.desc-3 {
+  width: 500px;
+  line-height: 25px;
+}
+.desc-3 {
+ margin-top: 190px;
+}
+
+.sect-3 {
+  background-color: #f8fbff;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vimi-grid {
+  display: grid;
+  grid-template-columns: 370px 370px;
+  column-gap: 50px;
+}
+.vimi-grid-kiri {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+}
+.vimi-txt {
+  color: #003fae;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.judul-vimi {
+  width: 400px;
+  line-height: 35px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.vimi-grid-kiri p {
+  margin: 33px 0px 0px 0px;
+  /* font-weight: 300; */
+}
+
+.sect-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.sect4-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sect4-container h2 {
+  text-align: center;
+  color: #003fae;
+}
+.sect4-container h4 {
+  text-align: center;
+  margin: 0;
+}
+.sect4-container h6 {
+  width: 230px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+
+@media(min-width: 475px) {
+  .sect-1 {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color: rgb(104, 103, 103);
+    background-image: url(../img/kantoor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-blend-mode: overlay;
+  }
+  .sect-1 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 5vh;
+    text-shadow: 1px 5px 27px rgba(1,1,1,0.73);
+  }
+
+  .sect-2 {
+    height: auto;
+    padding: 40px;
+    background-color: #003fae;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .history-grid {
+    display: grid;
+    grid-template-columns: 500px;
+    column-gap: 0px;
+  }
+  .history-txt {
+    font-size: 5vh;
+    margin: 0;
+    text-align: center;
+  }
+  .judul {
+    margin-top: 45px;
+    font-size: 2.3vh;
+  }
+  
+  .desc-1,
+  .desc-2,
+  .desc-3 {
+    width: 420px;
+    line-height: 25px;
+    font-size: 2vh;
+  }
+  .desc-3 {
+   margin-top: 10px;
+  }
+  .flex-txt {
+    margin: 0px 0px 0px 20px;
+  }
+
+  .sect-3 {
+    background-color: #f8fbff;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vimi-grid {
+    display: grid;
+    grid-template-columns: 370px;
+    column-gap: 0px;
+  }
+  .vimi-grid-kiri {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+  }
+  .vimi-txt {
+    color: #003fae;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 4.5vh;
+  }
+  .judul-vimi {
+    width: 400px;
+    margin: 0;
+    font-size: 2vh;
+  }
+  .vimi-grid-kiri h6 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5vh;
+    width: 400px;
+  }
+  .vimi-grid-kanan h6 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5vh;
+    width: 400px;
+  }
+  .vimi-grid-kanan .vimi-txt  {
+    margin-top: 80px;
+  }
+
+  .sect-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  }
+  .sect4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sect4-container h2 {
+    text-align: center;
+    color: #003fae;
+    font-size: 3vh;
+  }
+  .sect4-container h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 2vh;
+  }
+  .sect4-container h6 {
+    width: 230px;
+    font-size: 2vh;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+}

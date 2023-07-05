@@ -1,0 +1,150 @@
+footer {
+  background-color: #003fae;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-footer {
+  display: grid;
+  grid-template-columns: 400px 300px 300px;
+  grid-template-rows: 550px;
+  column-gap: 60px;
+  color: white;
+}
+
+.txt-logo {
+  font-weight: 300;
+}
+
+.infi-putih-img {
+  height: 15%;
+}
+
+.logo-sosmed {
+  display: flex;
+  padding: 10px 10px 30px 10px;
+  justify-content: space-between;
+  width: 300px;
+}
+.logo-sosmed img {
+  transition: 0.3s;
+  height: 60px;
+  cursor: pointer;
+}
+.sosmednav:hover {
+  transform: translateY(-3px);
+}
+.alamat-kiri {
+  font-weight: 500;
+  font-size: 50px;
+}
+.alamat-flex {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.alamat-flex img {
+  object-fit: contain;
+  margin-right: 40px;
+}
+.alamat-flex p {
+  font-size: 15px;
+  width: 200px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.footer-tengah,
+.footer-kanan {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-tengah div,
+.footer-kanan div {
+  font-weight: 500;
+  font-size: 35px;
+  padding: 20px 0px 20px 0px;
+}
+.footer-tengah a,
+.footer-kiri p,
+.footer-kanan a {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.middlenav:hover {
+  transform: translateY(-3px);
+  color: #c1d4ff;
+}
+
+.rightnav:hover {
+  transform: translateY(-3px);
+  color: #c1d4ff;
+}
+
+
+/* Batas Responsive 6 breakpoint */
+
+
+@media(min-width: 475px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
+@media(min-width: 640px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
+@media(min-width: 768px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
+@media(min-width: 1024px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
+@media(min-width: 1280px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px 300px 300px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
+@media(min-width: 1536px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 400px 300px 300px;
+    grid-template-rows: 550px;
+    column-gap: 60px;
+    color: white;
+  }
+}
